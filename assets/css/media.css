@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media only screen and (min-width: 1201px) {
 	
 	/*HeaderNav Hover CSS*/
@@ -19,6 +26,8 @@
 		content: " ";
 		width: 100%;
 		left: 0;
+		-webkit-transition: all 0.233s;
+		-o-transition: all 0.233s;
 		transition: all 0.233s;
 	}
 
@@ -38,15 +47,23 @@
 
 @media only screen and (max-width: 1200px) {
 	.search-wrapper .flex-container {
-		align-items: center;
-		flex-wrap: wrap;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 
 	.search-container {
 		margin: 2em auto 0;
-		flex-basis: 100%;
-		order: 3;
-		justify-content: flex-end;
+		-ms-flex-preferred-size: 100%;
+		    flex-basis: 100%;
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
 	}
 
 	.search-container > * {
@@ -79,7 +96,6 @@
 		background-position: center;
 	}
 }
-
 
 
 

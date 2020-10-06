@@ -1,0 +1,170 @@
+/* Top CSS*/
+
+.top-wrapper {
+	background-color: #FAFBFC;
+	color: #708598;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 0.5em 0;
+	border-bottom: 1px solid #ECEFF1;
+}
+
+.top-wrapper .flex-container {
+	align-items: center;
+}
+
+.geo-container {
+	margin-right: auto;
+	display: inline-flex;
+	align-items: center;
+}
+
+.geo-container__btn {
+	margin-right: 8px;
+	width: 15px;
+	height: 15px;
+	border: none;
+	background-color: transparent;
+	background-image: url('../img/geo.svg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.geo-container__city {
+
+}
+
+.navigation-container {
+
+}
+
+.navigation-container__list {
+
+}
+
+.navigation-container__item {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.navigation-container__item:last-of-type {
+	margin-right: 0;
+}
+
+.navigation-container__link {
+	position: relative;
+}
+
+.navigation-container__drop {
+	position: relative;
+	padding-right: 20px;
+}
+
+.navigation-container__drop::after {
+	content: url('../img/arrow.svg');
+	position: absolute;
+	top: -3px;
+	right: 0;
+}
+
+/*Search CSS*/
+
+.search-wrapper {
+	padding: 1em 0;
+	border-bottom: 1px solid #ECEFF1;
+}
+
+.search-wrapper .flex-container {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-container {
+	width: 221px;
+}
+
+.logo-container__img {
+	max-width: 100%;
+}
+
+.search-container {
+	width: 100%;
+	max-width: 801px;
+	height: 40px;
+	margin-right: 24px;
+	margin-left: 24px;
+	color: #050F19;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+}
+
+.search-container__directory {
+	width: 14.481897627965%;
+	height: 100%;
+	display: inline-flex;
+	padding: 10px 14px;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 14px;
+	background-color: #FED83D;
+	border: none;
+	border-radius: 4px;
+}
+
+.search-container__directory-img {
+	width: 10px;
+	height: 10px;
+}
+
+.search-container__search-place {
+	width: 65.6679151061174%;
+	height: 100%;
+	background-image: url('../img/search.svg');
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	border: 1px solid #ECEFF1;
+	border-radius: 4px;
+	padding: 0.5em 1em;
+	color: #708598;
+}
+
+.search-container__list-btn {
+	width: 13.8576779026217%;
+	height: 100%;
+	display: inline-flex;
+	padding: 10px 14px;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 14px;
+	background-color: #FAFBFC;
+	border: 1px solid #ECEFF1;
+	border-radius: 4px;
+}
+
+.touch-search {
+	display: none;
+}
+
+.account-container {
+	width: 40px;
+	height: 40px;
+	background-color: #9B51E0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
